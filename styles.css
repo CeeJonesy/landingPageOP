@@ -70,7 +70,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background-color: rgb(122, 123, 132);
     width: 375px;
     height: 200px;
     margin-right: 15%;
@@ -105,3 +105,39 @@ body{
     color: aliceblue;
     white-space: nowrap;
   }
+
+.s2h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxImgContainer {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.boxTextContainer {
+    text-align: center;
+    font-size: 14px;
+    max-width: 120px;
+    margin: 20px;
+}
